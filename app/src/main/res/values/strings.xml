@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidTrainigTaskProject</string>
+    <string name="add_view_title">Add task</string>
+    <string name="pick_color">Pick a color</string>
+
+
 </resources>

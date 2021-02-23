@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_task_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTrainigTaskProject">
-        <activity android:name=".MainActivity"
+        <activity android:name=".UpdateTaskActivity"></activity>
+        <activity android:name=".AddActivity" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/Theme.AndroidTrainigTaskProject.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

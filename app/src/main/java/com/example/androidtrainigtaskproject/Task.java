@@ -2,12 +2,17 @@ package com.example.androidtrainigtaskproject;
 
 public class Task {
     private int id;
-    private String desc,title;
 
-    public Task(int id, String title, String desc) {
+
+
+    private int color;
+    private String title,desc;
+
+    public Task(int id, String title, String desc,int color) {
         this.id = id;
         this.desc = desc;
         this.title = title;
+        this.color = color;
     }
     public Task() {
     }
@@ -15,6 +20,14 @@ public class Task {
     public Task(String title, String desc) {
         this.desc = desc;
         this.title = title;
+        
+    }
+
+    public Task(String title, String desc,int color) {
+        this.desc = desc;
+        this.title = title;
+        this.color=color;
+
     }
 
     public int getId() {
@@ -39,5 +52,13 @@ public class Task {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
     }
 }

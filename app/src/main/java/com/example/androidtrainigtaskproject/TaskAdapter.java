@@ -28,6 +28,7 @@ class TaskAdapter extends ArrayAdapter<Task> {
         Task task = getItem(position);
         title.setText(task.getTitle());
         desc.setText(task.getDesc());
+        convertView.setBackgroundColor(task.getColor());
 
         return convertView;
     }
